@@ -17,7 +17,7 @@ int main() {
         if(ages[i]>oldest){
             secondOldest=oldest;
             oldest=ages[i];
-        } else if(ages[i]!=oldest&&ages[i]>secondOldest){
+        } else if(ages[i]>secondOldest){
             secondOldest=ages[i];
         }
     }
